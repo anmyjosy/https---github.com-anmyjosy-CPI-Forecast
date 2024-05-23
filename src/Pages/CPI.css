@@ -1,0 +1,61 @@
+
+.select p{
+  color: rgb(5, 23, 46);
+  font-weight: bold;
+  font-size: 20px;
+  padding-right: 10px;
+}
+.load{
+  padding-top: 200px;
+  color: rgb(5, 23, 46);
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+
+.cpi-data{
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  padding-left: 50px;
+  align-items: center;
+}
+.dateleft{
+  padding-right: 70px;
+  padding-bottom: 0px;
+  background-color: rgb(5, 23, 46);
+}
+.valueleft{
+  color: rgb(5, 23, 46);
+  font-weight: bold;
+  padding-left: 10px;
+}
+.head{
+  color: rgb(5, 23, 46);
+  text-align: center;
+  padding-top: 20px;
+}
+
+.allbody{
+  display:flex;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 50px;
+  align-items: center;
+}
+.forecast-image{
+  width: 60%;
+  margin-left: 100px;
+  padding-top: 0px;
+}
+.figure{
+  width: 100%;
+  align-items: center;
+}
+
+.thetable{
+  padding-left: 50px;
+}
+.colname{
+  font-size: 24px;
+}

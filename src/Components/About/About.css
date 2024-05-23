@@ -1,0 +1,17 @@
+.aboutus{
+  background-color:#05172e;
+  align-items: center;
+  display: block;
+  margin-left: 300px;
+  margin-right: 300px;
+  text-align: center;
+  margin-top: 150px;
+  color: white;
+  font-size: 20px;
+  line-height: 50px;
+  border-radius: 40px;
+  opacity: 0.8;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px;
+}

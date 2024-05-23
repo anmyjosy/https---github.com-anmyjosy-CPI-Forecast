@@ -1,0 +1,19 @@
+.foot{
+  background-color: black;
+  padding-bottom: 20px;
+  padding-left: 300px; 
+  color: white;
+  display: flex;
+  padding-top: 20px;
+  line-height: 1.6;
+  margin: auto;
+}
+.foo2{
+  margin-left: 60%;
+}
+.foo1 p:hover{
+  text-decoration: underline;
+}
+.foo1 p:active{
+  color: #2d3d4e;
+}

@@ -1,0 +1,29 @@
+.line{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.select label{
+  font-family: "Playfair Display", serif;
+  color: rgb(5, 23, 46);
+  padding-left: 90px;
+  font-weight: bold;
+  font-size: 20px;
+  padding-right: 20px;
+  padding-top: 2px;
+}
+
+.opt{
+  margin-top: 5px;
+  padding: 4px 4px;
+  cursor: pointer;
+  background-color:  white;
+  color: rgb(5, 23, 46);
+  font-weight: bold;
+  border-radius: 20px;
+}
+.opt:hover{
+  background-color:rgb(5, 23, 46) ;
+  color:  white;
+}

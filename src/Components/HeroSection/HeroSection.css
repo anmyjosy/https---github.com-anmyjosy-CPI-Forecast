@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+.hero{
+  background:url(../../assets/Image.png);
+  opacity: 0.75;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-text{
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  color: white;
+  font-size: 40px;
+}
+
+.btn{
+  background-color: transparent;
+  padding: 8px 20px;
+  color: white;
+  border-color: white;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+.btn:hover{
+  background: white;
+  color: black;
+  border-color: black;
+  border-width: 3px;
+}
+@media (max-width:900px){
+  .hero-text{
+    font-size: 30px;
+  }
+}
+@media (max-width:700px){
+  .hero-text{
+    font-size: 25px;
+  }
+}

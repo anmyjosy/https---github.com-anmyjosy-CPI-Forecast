@@ -1,0 +1,65 @@
+
+
+.barall{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}
+.all{
+  margin-top: 70px;
+}
+.all h1{
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  color: rgb(5, 23, 46);
+  margin-bottom: 50px;
+}
+
+.select{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.select label{
+  font-family: "Playfair Display", serif;
+  color: rgb(5, 23, 46);
+  padding-left: 50px;
+  font-weight: bold;
+  font-size: 20px;
+  padding-right: 50px;
+  padding-top: 2px;
+}
+
+.select label select{
+  margin-left: 10px;
+  padding: 3px 3px;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color:  white;
+  color: rgb(5, 23, 46);
+  font-weight: bold;
+}
+.select label select:hover{
+  background-color:rgb(5, 23, 46) ;
+  color:  white;
+}
+
+.select button{
+  background-color:  white;
+  color: rgb(5, 23, 46);
+  font-weight: bold;
+  padding: 6px 10px 6px 10px;
+  margin-left: 50px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.select button:hover{
+  background-color:rgb(5, 23, 46) ;
+  color:  white;
+}
+.select button:active{
+  background-color:white ;
+  color:  rgb(5, 23, 46);
+}
